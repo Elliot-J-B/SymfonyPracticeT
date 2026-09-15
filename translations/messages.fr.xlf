@@ -5,9 +5,45 @@
       <tool tool-id="symfony" tool-name="Symfony"/>
     </header>
     <body>
-      <trans-unit id="Rk.0YHK" resname="DigitalFirstSteps">
-        <source>DigitalFirstSteps</source>
-        <target>Premiers pas numériques</target>
+      <trans-unit id="lSX_PHJ" resname="Please sign in">
+        <source>Please sign in</source>
+        <target>Se connecter</target>
+      </trans-unit>
+      <trans-unit id="JZi_tm0" resname="Email">
+        <source>Email</source>
+        <target>Adresse Mail</target>
+      </trans-unit>
+      <trans-unit id="GqmFSHc" resname="Password">
+        <source>Password</source>
+        <target>Mot de Passe</target>
+      </trans-unit>
+      <trans-unit id="pNIxNSX" resname="Sign in">
+        <source>Sign in</source>
+        <target>Se connecter</target>
+      </trans-unit>
+      <trans-unit id="fGfBzt6" resname="Register">
+        <source>Register</source>
+        <target>Créer un compte</target>
+      </trans-unit>
+      <trans-unit id="gR9IGry" resname="agree_terms">
+        <source>agree_terms</source>
+        <target>Accepter les termes et conditions</target>
+      </trans-unit>
+      <trans-unit id="JKl2Twv" resname="Logout">
+        <source>Logout</source>
+        <target>Se déconnecter</target>
+      </trans-unit>
+      <trans-unit id="4f3WEva" resname="Login">
+        <source>Login</source>
+        <target>Se connecter</target>
+      </trans-unit>
+      <trans-unit id="SdNWA5t" resname="Search">
+        <source>Search</source>
+        <target>Rechercher</target>
+      </trans-unit>
+      <trans-unit id="_vpO.88" resname="You are logged in as">
+        <source>You are logged in as</source>
+        <target>Vous êtes connectés en tant que</target>
       </trans-unit>
       <trans-unit id="X3mNKoP" resname="Symfony Practice">
         <source>Symfony Practice</source>

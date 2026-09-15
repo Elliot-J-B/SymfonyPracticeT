@@ -717,6 +717,22 @@
         <source>Please enter a valid UUID.</source>
         <target>Veuillez entrer un UUID valide.</target>
       </trans-unit>
+      <trans-unit id="vsM4tSv" resname="There is already an account with this email">
+        <source>There is already an account with this email</source>
+        <target>__There is already an account with this email</target>
+      </trans-unit>
+      <trans-unit id="6h2NNfX" resname="You should agree to our terms.">
+        <source>You should agree to our terms.</source>
+        <target>__You should agree to our terms.</target>
+      </trans-unit>
+      <trans-unit id="B7yoMOR" resname="Please enter a password">
+        <source>Please enter a password</source>
+        <target>__Please enter a password</target>
+      </trans-unit>
+      <trans-unit id="_OmnKuR" resname="Your password should be at least {{ limit }} characters">
+        <source>Your password should be at least {{ limit }} characters</source>
+        <target>__Your password should be at least {{ limit }} characters</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

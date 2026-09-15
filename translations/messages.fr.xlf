@@ -45,6 +45,10 @@
         <source>You are logged in as</source>
         <target>Vous êtes connectés en tant que</target>
       </trans-unit>
+      <trans-unit id="X3mNKoP" resname="Symfony Practice">
+        <source>Symfony Practice</source>
+        <target>Entrainement sur Symfony</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

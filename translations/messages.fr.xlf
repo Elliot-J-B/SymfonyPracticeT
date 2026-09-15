@@ -37,6 +37,14 @@
         <source>Login</source>
         <target>Se connecter</target>
       </trans-unit>
+      <trans-unit id="SdNWA5t" resname="Search">
+        <source>Search</source>
+        <target>Rechercher</target>
+      </trans-unit>
+      <trans-unit id="_vpO.88" resname="You are logged in as">
+        <source>You are logged in as</source>
+        <target>Vous êtes connectés en tant que</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

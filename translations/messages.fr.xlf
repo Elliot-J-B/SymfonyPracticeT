@@ -49,6 +49,38 @@
         <source>Symfony Practice</source>
         <target>Entrainement sur Symfony</target>
       </trans-unit>
+      <trans-unit id="Rk.0YHK" resname="DigitalFirstSteps">
+        <source>DigitalFirstSteps</source>
+        <target>Premiers pas digitaux</target>
+      </trans-unit>
+      <trans-unit id="ebD_LOV" resname="Country index">
+        <source>Country index</source>
+        <target>Index Pays</target>
+      </trans-unit>
+      <trans-unit id="usYUJnL" resname="show">
+        <source>show</source>
+        <target>Voir</target>
+      </trans-unit>
+      <trans-unit id="BVAU8Tv" resname="edit">
+        <source>edit</source>
+        <target>Modifier</target>
+      </trans-unit>
+      <trans-unit id="YNZdbtH" resname="Create new">
+        <source>Create new</source>
+        <target>Créer</target>
+      </trans-unit>
+      <trans-unit id="wbMeKOh" resname="Name">
+        <source>Name</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit id="W3yX.Gj" resname="actions">
+        <source>actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="hm005Tf" resname="no records found">
+        <source>no records found</source>
+        <target>Pas de données trouvées</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -717,6 +717,10 @@
         <source>Please enter a valid UUID.</source>
         <target>Veuillez entrer un UUID valide.</target>
       </trans-unit>
+      <trans-unit id="f.1qjbZ" resname="The lower bound must not be greater than the upper bound.">
+        <source>The lower bound must not be greater than the upper bound.</source>
+        <target state="needs-review-translation">La borne inférieure ne doit pas être supérieure à la borne supérieure.</target>
+      </trans-unit>
       <trans-unit id="vsM4tSv" resname="There is already an account with this email">
         <source>There is already an account with this email</source>
         <target>__There is already an account with this email</target>

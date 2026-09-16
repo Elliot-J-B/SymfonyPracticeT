@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Country index{% endblock %}
+
+{% block body %}
+
+<div class="container mt-5">
+    <h1>{{"Country index"|trans}}</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>{{"Name"|trans}}</th>
+                <th>{{"actions"|trans}}</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for country in countries %}
+            <tr>
+                <td>{{ country.id }}</td>
+                <td>{{ country.name }}</td>
+                <td>
+                    <a href="{{ path('app_country_show', {'id': country.id}) }}"><i class="fa-solid fa-eye"></i>
+</a>
+                    <a href="{{ path('app_country_edit', {'id': country.id}) }}">{{"edit"|trans}}</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="3">{{"no records found"|trans}}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <a href="{{ path('app_country_new') }}"><button class="btn btn-primary" href="{{ path('app_country_new') }}">{{"Create new"|trans}}</button> </a>
+</div>
+    
+{% endblock %}

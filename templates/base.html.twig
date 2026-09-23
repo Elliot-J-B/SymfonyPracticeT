@@ -29,7 +29,27 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="dropdown">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">azeaze</button>
+                <ul class ="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="/country">Country</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="/credits">Credits</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="/image">Image</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="/theme">Theme</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="/user">User</a>
+                    </li>
+                </ul>
+                </div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     </li>
                     {% if is_granted('ROLE_USER') %}
                     <li class="nav-item">
